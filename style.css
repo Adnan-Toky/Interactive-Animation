@@ -4,7 +4,7 @@ body {
     text-align:center;
 }
 
-input[type="range"]{
+input[type="range"] {
     background:rgb(68,238,255);
     -webkit-appearance:none !important;
     height:5px;
@@ -14,7 +14,7 @@ input[type="range"]{
     margin:15px auto;
 }
 
-input[type="button"]{
+input[type="button"] {
     height:25px;
     width:70px;
     border:none;
@@ -30,10 +30,10 @@ input[type="button"]:hover{
     background:rgb(0,246,216);
 }
 
-h3{
+h3 {
     background:-webkit-linear-gradient(left,rgb(252,33,83),rgb(252,142,83),rgb(42,242,176),rgb(42,181,255),rgb(125,85,255),rgb(249,67,252));
     color:transparent;
-     -webkit-background-clip: text;
-     background-clip: text;
-     font-family: 'Satisfy', cursive;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-family: 'Satisfy', cursive;
 }
