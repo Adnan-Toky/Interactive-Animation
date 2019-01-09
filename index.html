@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Interactive Animation</title>
+</head>
+<body>
+  <canvas id="myCanvas"></canvas>
+  <input id="number" type="range" max="1000" min="100" value="500" oninput="update(10,30,40)"/>
+  <input id="radius" type="range" max="10" min="1" value="2" oninput="update(10,30,40)"/>
+  <input id="speed" type="range" max="5" min="1" value="3" oninput="update(10,30,40)"/>
+  <input type="button" onclick="update(50,100,100)" value="Color-01"/>
+  <input type="button" onclick="update(10,200,50)" value="Color-02"/>
+  <input type="button" onclick="update(255,50,100)" value="Color-03"/>
+  <input type="button" onclick="update(255,255,10)" value="Color-04"/>
+  <input type="button" onclick="update(150,1,200)" value="Color-05"/>
+  <input type="button" onclick="update(255,255,255)" value="Color-06"/>
+  <input type="button" onclick="update(10,0,0)" value="Color-07"/>
+  <h3>Created By: Adnan Zawad Toky</h3>
+</body>
+</html>
